@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #0f0f0f;
+    color: white;
+}
+
+/* Header / Navigation */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #111;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00ff88;
+}
+
+.logo span {
+    color: #ffffff;
+}
+
+nav a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #eee;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+   
+    color: #00ff88;
+}
+
+/* Hero Section */
+.hero {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    padding: 10px 60px;
+    background: #00ff88;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #00995f;
+}
+
+/* Sections */
+section {
+    padding: 70px 50px;
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.service-box {
+    width: 280px;
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #00ff88;
+}
+
+/* Footer */
+footer {
+    background: #111;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+.contact p {
+    margin-bottom: 25px;
+    padding: 0 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+    text-align: center;
+}
